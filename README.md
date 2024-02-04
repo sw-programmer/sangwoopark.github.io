@@ -1,1 +1,0 @@
-# sw-programmer.github.io
