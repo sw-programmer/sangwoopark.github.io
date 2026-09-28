@@ -1,4 +1,21 @@
-# al-folio
+# sangwoopark.github.io
+
+Sangwoo Park's personal website, based on al-folio.
+
+## Local preview
+
+Run `./bin/serve` and open <http://localhost:8080>. Press Ctrl+C to stop.
+The script uses Homebrew Ruby 3.3, gems in `vendor/bundle`, and the local
+Python virtual environment when available. Restart it after editing `_config.yml`.
+
+The biography, photo, education, experience, and publications are inherited
+from the original site and still need to be personalized.
+
+Git origin: `https://github.com/sw-programmer/sangwoopark.github.io.git`.
+The site URL is `https://sangwoopark.github.io` with an empty `baseurl`.
+Changing these settings does not create the repository on GitHub or publish the site.
+
+## al-folio
 
 <div align="center">
 
