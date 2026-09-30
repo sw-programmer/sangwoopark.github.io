@@ -1,16 +1,16 @@
-# sw-programmer.github.io
+# sangwoopark.github.io
 
 Sangwoo Park's personal website, based on al-folio.
 
 ## Local preview
 
-Run `./bin/serve` and open <http://localhost:8080/>. Press Ctrl+C to stop.
+Run `./bin/serve` and open <http://localhost:8080/sangwoopark.github.io/>. Press Ctrl+C to stop.
 The script uses Homebrew Ruby 3.3, gems in `vendor/bundle`, and the local
 Python virtual environment when available. Restart it after editing `_config.yml`.
 
 The homepage contains the current biography, education, work experience, and publications.
 
-Git origin: `https://github.com/sw-programmer/sw-programmer.github.io.git`.
+Git origin: `https://github.com/sw-programmer/sangwoopark.github.io.git`.
 The GitHub Pages URL is `https://sw-programmer.github.io/`.
 Changing these settings does not create the repository on GitHub or publish the site.
 
