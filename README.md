@@ -11,7 +11,7 @@ Python virtual environment when available. Restart it after editing `_config.yml
 The homepage contains the current biography, education, work experience, and publications.
 
 Git origin: `https://github.com/sw-programmer/sangwoopark.github.io.git`.
-The GitHub Pages URL is `https://sw-programmer.github.io/`.
+The GitHub Pages URL is `https://sw-programmer.github.io/sangwoopark.github.io/`.
 Changing these settings does not create the repository on GitHub or publish the site.
 
 ## Deployment and Google Search
@@ -20,7 +20,7 @@ Push `main` to run the **Deploy site** workflow. It builds the site and publishe
 `_site` to `gh-pages`. In GitHub **Settings → Pages**, select **Deploy from a
 branch**, **gh-pages**, and **/ (root)**.
 
-Public URL: <https://sw-programmer.github.io/>
+Public URL: <https://sw-programmer.github.io/sangwoopark.github.io/>
 
 For Google Search Console:
 
@@ -28,7 +28,7 @@ For Google Search Console:
 2. Choose **HTML tag** verification and copy only its `content` value into
    `google_site_verification` in `_config.yml`.
 3. Push the change, wait for deployment, then click **Verify** in Search Console.
-4. Submit `https://sw-programmer.github.io/sitemap.xml`.
+4. Submit `https://sw-programmer.github.io/sangwoopark.github.io/sitemap.xml`.
 5. Inspect the homepage URL and select **Request indexing**.
 
 The production build includes a canonical URL, descriptive metadata, an open
