@@ -809,8 +809,12 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          box-sizing: border-box;
+          width: 4.5rem;
+          text-align: center;
+          white-space: nowrap;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
@@ -1508,6 +1512,138 @@ html {
     transition: color 0.2s ease-in-out;
     &:hover {
       color: var(--global-theme-color) !important;
+    }
+  }
+}
+
+// Rose-red distinction for notable publication presentations.
+.publication-highlight {
+  color: #be123c;
+  font-weight: 700;
+}
+
+html[data-theme="dark"] .publication-highlight {
+  color: #fda4af;
+}
+
+// Keep company symbols aligned and legible in both color themes.
+.work-experience {
+  .work-experience-logo {
+    width: 64px;
+    padding-right: 12px;
+    vertical-align: middle;
+
+    img {
+      display: block;
+      width: 48px;
+      height: 48px;
+      padding: 4px;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 6px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .work-experience-logo {
+      width: 44px;
+      padding-right: 8px;
+
+      img {
+        width: 36px;
+        height: 36px;
+      }
+    }
+  }
+}
+
+.about-page {
+  padding-bottom: clamp(4rem, 10vh, 8rem);
+}
+
+.publications div[id] {
+  scroll-margin-top: 80px;
+}
+
+.news-list {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 576px) {
+  .about-page .profile {
+    width: 28%;
+  }
+
+  .about-page .profile.float-right {
+    margin-left: 2.5rem;
+  }
+
+  .about-page .profile.float-left {
+    margin-right: 2.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-page .profile {
+    float: none !important;
+    max-width: 265px;
+    margin: 0 auto 2rem;
+  }
+}
+
+.about-intro {
+  display: flow-root;
+}
+
+@media (min-width: 768px) {
+  .about-intro {
+    width: 90%;
+  }
+}
+
+.about-intro .research-bottlenecks {
+  padding-left: 1rem;
+  margin-left: 0;
+  list-style: disc outside;
+
+  li {
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: left;
+  }
+}
+
+.about-page .portrait-slideshow {
+  &:focus-visible {
+    outline: 3px solid var(--global-theme-color);
+    outline-offset: 4px;
+  }
+
+  display: block;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1538 / 1951;
+  margin-bottom: 1rem;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    &[hidden] {
+      display: none;
     }
   }
 }

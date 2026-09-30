@@ -1,0 +1,27 @@
+- role: Applied Scientist Intern
+  company: Amazon
+  logo: /assets/img/companies/amazon.png
+  url: https://www.amazon.science/
+  location: Berlin, Germany
+  year: Jun 2026 - Aug 2026
+
+- role: Research Engineer Intern
+  company: LG AI Language Lab
+  logo: /assets/img/companies/lg.ico
+  url: https://www.lgresearch.ai/ourwork/research?tab=PB
+  location: Seoul, Korea
+  year: Mar 2024 - Sep 2024
+
+- role: Research Intern
+  company: NCSOFT Speech AI Lab
+  logo: /assets/img/companies/ncsoft.png
+  url: https://nc-ai.github.io/speech/
+  location: Bundang, South Korea
+  year: Jan 2024 - Feb 2024
+
+- role: Research Engineer Intern
+  company: NAVER CLOVA
+  logo: /assets/img/companies/naver-clova.png
+  url: https://clova.ai/
+  location: Bundang, South Korea
+  year: Feb 2022 - Aug 2022

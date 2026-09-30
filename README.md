@@ -8,12 +8,31 @@ Run `./bin/serve` and open <http://localhost:8080/sangwoopark.github.io/>. Press
 The script uses Homebrew Ruby 3.3, gems in `vendor/bundle`, and the local
 Python virtual environment when available. Restart it after editing `_config.yml`.
 
-The biography, photo, education, experience, and publications are inherited
-from the original site and still need to be personalized.
+The homepage contains the current biography, education, work experience, and publications.
 
 Git origin: `https://github.com/sw-programmer/sangwoopark.github.io.git`.
 The GitHub Pages URL is `https://sw-programmer.github.io/sangwoopark.github.io/`.
 Changing these settings does not create the repository on GitHub or publish the site.
+
+## Deployment and Google Search
+
+Push `main` to run the **Deploy site** workflow. It builds the site and publishes
+`_site` to `gh-pages`. In GitHub **Settings → Pages**, select **Deploy from a
+branch**, **gh-pages**, and **/ (root)**.
+
+Public URL: <https://sw-programmer.github.io/sangwoopark.github.io/>
+
+For Google Search Console:
+
+1. Add the public URL as a **URL-prefix** property.
+2. Choose **HTML tag** verification and copy only its `content` value into
+   `google_site_verification` in `_config.yml`.
+3. Push the change, wait for deployment, then click **Verify** in Search Console.
+4. Submit `https://sw-programmer.github.io/sangwoopark.github.io/sitemap.xml`.
+5. Inspect the homepage URL and select **Request indexing**.
+
+The production build includes a canonical URL, descriptive metadata, an open
+robots policy, and a sitemap. Google decides whether and when to index the site.
 
 ## al-folio
 

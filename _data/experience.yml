@@ -1,23 +1,5 @@
-- role: Founder & Lead
-  company: TMI (Thinking, Meaning, and Intelligence) Group
-  year: Jul 2024 - Present
-  description: Founded and leading a monthly interdisciplinary academic group inspired by Norbert Wiener’s project on cybernetics, bringing together graduate students from philosophy, neuroscience, linguistics, computer science, physics, and education. The group explores fundamental questions about thinking, meaning, and intelligence through collaborative discussions and projects.
-
-- role: Research Intern
-  company: "KAIST LK Lab"
-  year: Feb 2022 - Aug 2022
-  description: "Advisor: Minjoon Seo"
-
-- role: Research Intern
-  company: "SNU LDI Lab"
-  year: Sep 2021 - Jan 2022
-  description: "Advisor: Seung-won Hwang"
-
-- role: Research Intern
-  company: "SNU CHANGLab"
-  year: Dec 2020 - Feb 2021
-  description: "Advisor: Hyeshik Chang"
-
-- role: Undergraduate Researcher
-  company: SNU Undergraduate Research Program
-  year: May 2020 - Dec 2020
+- role: Research Student
+  company: '<a href="https://www.mlai-kaist.com/">MLAI (Machine Learning & Artificial Intelligence) Lab</a>, KAIST, Seoul, Korea'
+  year: Mar 2025 - Present
+  description: >-
+    <em>Advisor: <a href="http://www.sungjuhwang.com/">Prof. Sung Ju Hwang</a></em>

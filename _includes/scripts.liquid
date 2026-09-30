@@ -325,3 +325,7 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+{% if page.layout == 'about' and page.profile.image_back %}
+  <script defer src="{{ '/assets/js/portrait-slideshow.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

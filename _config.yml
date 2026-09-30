@@ -7,11 +7,12 @@ first_name: Sangwoo
 middle_name: 
 last_name: Park
 contact_note: >
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >-
+  Sangwoo Park is a Ph.D. student at KAIST researching LLM reasoning, distillation, and AI safety. Explore his publications, education, and work experience.
 footer_text: >
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Sangwoo Park, KAIST, LLM reasoning, distillation, AI safety
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🦙 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🪴 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sw-programmer.github.io # the base hostname & protocol for your site
 baseurl: /sangwoopark.github.io # the subpath for this GitHub Pages project site
@@ -177,6 +178,20 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _posts/
+  - _books/
+  - _projects/
+  - _news/
+  - _pages/news.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - googleac9098fd2ae79715.html
+  - swoopark.jpeg
+  - swoopark_2.jpg
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -237,7 +252,7 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
@@ -305,6 +320,9 @@ filtered_bibtex_keywords:
     pdf,
     poster,
     preview,
+    publication_label,
+    workshop,
+    project,
     selected,
     slides,
     supp,

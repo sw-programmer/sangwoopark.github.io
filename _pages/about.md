@@ -2,11 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: # "[hojʌn tɕɑŋ]"
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: swoopark.jpg
+  image_back: swoopark_2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -24,12 +25,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-E-mail: retapurayo (at) kaist.ac.kr
+<p>E-mail: <a href="mailto:swgger@kaist.ac.kr">swgger (at) kaist.ac.kr</a></p>
 
 <div style="text-align: justify;" markdown="1">
-I am a Ph.D. student at KAIST Graduate School of AI, advised by [Minjoon Seo](https://seominjoon.github.io/) and [Seongjoon Oh](https://seongjoonoh.com/).
-My research investigates the structural foundations of intelligence: specifically, how systematic compositionality and robust belief revision can be realized in connectionist networks. Currently, I am exploring the interface of category theory and the geometry of neural representations, aiming to uncover the structural constraints that govern generalization. I deeply value interdisciplinary insights and enjoy connecting ideas from philosophy, linguistics, cognitive science, and mathematics to build a comprehensive picture of intelligence.
+I am a Ph.D. student at the KAIST Graduate School of AI, co-advised by [Sung Ju Hwang](http://www.sungjuhwang.com/) and [Seong Joon Oh](https://seongjoonoh.com/). My research focuses on LLM reasoning, distillation, and AI safety research. Current interests & recent work include:
 
-Previously, I obtained a B.S. in Electrical & Computer Engineering and Biological Sciences from Seoul National University.
-Outside of research, [I am a jazz pianist and occasionally play at jazz clubs in Seoul](https://www.youtube.com/@alpaca4199).
+- **Reasoning:** Reducing sensitivity to pre-generated conditions, exploration, and extending reasoning to domains without readily verifiable rewards.
+- **Distillation:** Learning from noisy supervision or natural language feedback.
+- **AI Safety:** Upholding safety or contextual integrity while preserving useful reasoning and agentic capabilities, and mitigating reward hacking.
+{: .research-bottlenecks role="list" }
 </div>

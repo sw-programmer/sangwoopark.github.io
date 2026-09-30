@@ -3,14 +3,6 @@
 
 - language: English
   level: Full academic proficiency
-  score: TOEIC 925/990
-
-- language: Japanese
-  level: Full academic proficiency
-  score: JLPT N1 164/180
 
 - language: German
-  level: Elementary proficiency
-
-- language: Spanish
-  level: Elementary proficiency
+  level: '<em>"Ein Döner, bitte!"</em>'
