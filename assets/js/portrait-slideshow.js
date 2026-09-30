@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-portrait-slideshow]").forEach(t=>{const e=t.querySelectorAll("img");if(e.length<2)return;let r=0;t.addEventListener("click",()=>{const l=(r+1)%e.length;e[l].complete&&0!==e[l].naturalWidth&&(e[r].hidden=!0,e[l].hidden=!1,r=l,t.setAttribute("aria-label",0===r?"Show alternate portrait":"Show original portrait"))})});
